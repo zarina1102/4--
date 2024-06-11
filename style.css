@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav,footer{
+    background-color: black;
+    padding: 15px 0;
+
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.card{
+    width: 300px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    }
+.card img{
+    width: 300px;
+    gap: 10px;
+    display: flex;
+    }
+.card-title{
+    padding: 24px 30px;
+    }
+.card-title p{
+    margin-top: 18px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+.card h3{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.89px;
+    text-align: left;    
+    }
+
+.row{
+    margin-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+
+}
+ul li a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.78px;
+    color: white;
+    text-decoration: none;
+}
+.conteiner h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+    font-weight: 500;
+    line-height: 93px;
+    margin-top: 114px;
+}
